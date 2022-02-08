@@ -6,6 +6,7 @@ import { ClimbData } from "./DataCollection/ClimbData";
 import { DriverData } from "./DataCollection/DriverData";
 import { OverallStratData } from "./DataCollection/OverallStratData";
 import { PenaltiesData } from './DataCollection/PenaltiesData';
+import { DefenseData } from "./DataCollection/DefenseData";
 
 export class DataCollection extends React.Component {
   constructor(props) {
@@ -56,7 +57,6 @@ export class DataCollection extends React.Component {
           <Text style={{ marginTop: 20, marginBottom: 20, fontSize: 20 }}>----  Autonomous  ----</Text>
 
           <CargoData />
-          <ClimbData />
           <DriverData />
           <OverallStratData />
           <PenaltiesData />
@@ -66,6 +66,7 @@ export class DataCollection extends React.Component {
 
           <CargoData />
           <ClimbData />
+          <DefenseData />
           <DriverData />
           <OverallStratData />
           <PenaltiesData />

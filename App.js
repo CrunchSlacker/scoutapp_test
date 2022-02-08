@@ -96,5 +96,12 @@ export const styles = StyleSheet.create({
     marginRight: 30,
   },
 
+  climbButtons: {
+    backgroundColor: "#FFB2E6",
+    borderRadius: 5,
+    width: 40, height: 30,
+    marginRight: 10, marginTop: 10,
+    justifyContent: 'center', alignItems: 'center'
+  },
   
 });
